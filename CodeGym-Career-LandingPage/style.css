@@ -1,0 +1,33 @@
+/* Tùy chỉnh màu sắc & giao diện Material Design */
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.text-indigo {
+    color: #3f51b5 !important;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    min-height: 85vh;
+    background: linear-gradient(rgba(63, 81, 181, 0.85), rgba(33, 150, 243, 0.85)), 
+                url('https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Card Transitions */
+.card {
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Spacing */
+section {
+    padding: 60px 0;
+}
